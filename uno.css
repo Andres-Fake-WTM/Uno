@@ -1,0 +1,104 @@
+/* cambiar el fondo */
+body{
+    background-image: url("images/background.jpg"); 
+
+}
+#datos{
+    
+
+    
+    text-align: center;
+    
+}
+#name1{
+    color: red;
+}
+#name2{
+    color: rgb(10, 233, 85);
+}
+#Aceptar{
+    text-align: center; 
+}
+#buttonStart{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+    
+    
+}
+#botonUno{
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#botonUno:hover{
+    transform:scale(1.5);
+}
+
+#maso{
+    
+   text-align: center;
+    
+    cursor: pointer;
+    margin-top: 100px;
+    transform:scale(1.5);
+ 
+}
+#maso:hover{
+    transform:scale(2.5);
+}
+.start{
+    display:block;
+
+    text-align: center;
+}
+.option{
+    color: aliceblue;
+    
+}
+.ordenar{
+    cursor: pointer;
+}
+
+#title1{
+    
+    color: aliceblue;
+    
+    text-align: center;
+}
+#title2{
+    
+   
+    color: aliceblue;
+    text-align: center;
+}
+#title3{
+    color: aliceblue;
+    text-align: center;
+}
+#player1,#game,#player2{
+  flex: 1;
+  
+
+    
+}
+#masoImg{
+    cursor: pointer;
+    
+}
+#player1{
+
+    background-color:red;
+}
+#game{
+    background-color:black;
+}
+#player2{
+    
+  background-color: rgb(10, 233, 85);
+}
+#text{
+    color: blanchedalmond;
+}
